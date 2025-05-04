@@ -22,11 +22,6 @@
 
 1. 저장소 클론
 
-```bash
-git clone https://github.com/your-username/golf-ranking.git
-cd golf-ranking
-```
-
 2. 의존성 설치
 
 ```bash
