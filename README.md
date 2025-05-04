@@ -12,10 +12,10 @@
 
 ## 기술 스택
 
-- **프론트엔드**: Next.js, React, TypeScript, Tailwind CSS
+- **프론트엔드**: Next.js 15.3, React 19, TypeScript, Tailwind CSS 4
 - **백엔드**: Next.js API Routes
-- **데이터베이스**: PostgreSQL, Prisma ORM
-- **인증**: NextAuth.js
+- **데이터베이스**: SQLite, Prisma ORM 6.7
+- **인증**: NextAuth.js 4.24
 - **파일 스토리지**: Cloudinary
 
 ## 로컬 개발 환경 설정
@@ -34,8 +34,7 @@ npm install
 
 ```
 # 데이터베이스 URL
-DATABASE_URL="postgresql://username:password@localhost:5432/golfranking"
-DIRECT_URL="postgresql://username:password@localhost:5432/golfranking"
+DATABASE_URL="file:./dev.db"
 
 # NextAuth 설정
 NEXTAUTH_URL="http://localhost:3000"
@@ -64,8 +63,6 @@ npm run dev
 ### 무료 배포 옵션
 
 - **Vercel**: Next.js 애플리케이션 배포에 최적화되어 있습니다.
-- **Railway**: PostgreSQL 데이터베이스 호스팅을 제공합니다.
-- **PlanetScale**: MySQL 호환 서버리스 데이터베이스 플랫폼
 - **Cloudinary**: 이미지 호스팅
 
 ## 기여하기

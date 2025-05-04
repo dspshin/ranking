@@ -12,7 +12,7 @@ export default function Home() {
         {/* 히어로 섹션 */}
         <div className="relative bg-white overflow-hidden">
           <div className="max-w-7xl mx-auto">
-            <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+            <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-3xl lg:w-full lg:pb-28 xl:pb-32">
               <svg
                 className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
                 fill="currentColor"
@@ -29,11 +29,11 @@ export default function Home() {
 
               <div className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                 <div className="sm:text-center lg:text-left">
-                  <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                  <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-7xl">
                     <span className="block xl:inline">당신의 골프 라운드를</span>{" "}
                     <span className="block text-green-600 xl:inline">기록하고 분석하세요</span>
                   </h1>
-                  <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                  <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:max-w-3xl lg:mx-0">
                     골프랭킹에서 라운드 점수를 기록하고, 분석하고, 친구들과 공유하세요. 
                     홀별 스코어, 페어웨이 안착률, 그린 적중률 등을 추적하고 자신의 실력을 향상시키세요.
                   </p>
